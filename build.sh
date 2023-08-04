@@ -5,6 +5,9 @@ rm -rf build &&
 mkdir build &&
 cd build &&
 
+export CXX=/usr/bin/g++ &&
+export CC=/usr/bin/gcc &&
+
 echo "Running cmake with build type Debug."
 cmake -Wall -DCMAKE_PREFIX_PATH=$HOME/Qt/5.15.14/gcc_64/ \
   -G "Unix Makefiles" \
