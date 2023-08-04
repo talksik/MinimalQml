@@ -33,5 +33,5 @@ target_link_libraries(${PROJECT}
     Qt5::Widgets
     Qt5::Qml
     Qt5::Quick
-    )
+)
 

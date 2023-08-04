@@ -1,0 +1,17 @@
+[
+{
+  "directory": "/home/talksik/code/MinimalQml/build/src",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/talksik/code/MinimalQml/build/src/MinimalQml_autogen/include -isystem /home/talksik/Qt/5.15.14/gcc_64/include -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtWidgets -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtGui -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtCore -isystem /home/talksik/Qt/5.15.14/gcc_64/./mkspecs/linux-g++ -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtQml -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtNetwork -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtQuick -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtQmlModels   -Wall -Werror -std=c++11 -fstrict-aliasing -pedantic-errors -pedantic -Wno-deprecated-declarations -Wno-unused-variable -g -fPIC -o CMakeFiles/MinimalQml.dir/MinimalQml_autogen/mocs_compilation.cpp.o -c /home/talksik/code/MinimalQml/build/src/MinimalQml_autogen/mocs_compilation.cpp",
+  "file": "/home/talksik/code/MinimalQml/build/src/MinimalQml_autogen/mocs_compilation.cpp"
+},
+{
+  "directory": "/home/talksik/code/MinimalQml/build/src",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/talksik/code/MinimalQml/build/src/MinimalQml_autogen/include -isystem /home/talksik/Qt/5.15.14/gcc_64/include -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtWidgets -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtGui -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtCore -isystem /home/talksik/Qt/5.15.14/gcc_64/./mkspecs/linux-g++ -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtQml -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtNetwork -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtQuick -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtQmlModels   -Wall -Werror -std=c++11 -fstrict-aliasing -pedantic-errors -pedantic -Wno-deprecated-declarations -Wno-unused-variable -g -fPIC -o CMakeFiles/MinimalQml.dir/main.cpp.o -c /home/talksik/code/MinimalQml/src/main.cpp",
+  "file": "/home/talksik/code/MinimalQml/src/main.cpp"
+},
+{
+  "directory": "/home/talksik/code/MinimalQml/build/src",
+  "command": "/usr/bin/c++ -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NETWORK_LIB -DQT_QMLMODELS_LIB -DQT_QML_LIB -DQT_QUICK_LIB -DQT_WIDGETS_LIB -I/home/talksik/code/MinimalQml/build/src/MinimalQml_autogen/include -isystem /home/talksik/Qt/5.15.14/gcc_64/include -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtWidgets -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtGui -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtCore -isystem /home/talksik/Qt/5.15.14/gcc_64/./mkspecs/linux-g++ -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtQml -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtNetwork -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtQuick -isystem /home/talksik/Qt/5.15.14/gcc_64/include/QtQmlModels   -Wall -Werror -std=c++11 -fstrict-aliasing -pedantic-errors -pedantic -Wno-deprecated-declarations -Wno-unused-variable -g -fPIC -o CMakeFiles/MinimalQml.dir/qrc_qml.cpp.o -c /home/talksik/code/MinimalQml/build/src/qrc_qml.cpp",
+  "file": "/home/talksik/code/MinimalQml/build/src/qrc_qml.cpp"
+}
+]
