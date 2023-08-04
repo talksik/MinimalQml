@@ -1,4 +1,4 @@
-cmake_minimum_required(VERSION 2.8)
+cmake_minimum_required(VERSION 3.5)
 
 set(PROJECT_NAME "MinimalQml")
 project(${PROJECT_NAME} LANGUAGES CXX)
