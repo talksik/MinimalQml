@@ -6,7 +6,9 @@ mkdir build &&
 cd build &&
 
 echo "Running cmake with build type Debug."
-cmake -DCMAKE_CXX_COMPILER=/usr/bin/g++ -DCMAKE_EXPORT_COMPILE_COMMANDS=1 -DCMAKE_PREFIX_PATH=$HOME/Qt/5.15.14/gcc_64/ -G "Unix Makefiles" -DCMAKE_BUILD_TYPE=Debug .. &&
+cmake -DCMAKE_PREFIX_PATH=$HOME/Qt/5.15.14/gcc_64/ \
+  -G "Unix Makefiles" \
+  -DCMAKE_BUILD_TYPE=Debug .. &&
 
 echo "====================="
 echo "Running make..."
@@ -23,4 +25,4 @@ cp build/compile_commands.json . &&
 echo "====================="
 echo "running app"
 echo "====================="
-./build/src/MinimalQml
+./build/MinimalQml
