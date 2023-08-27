@@ -9,7 +9,7 @@ mkdir build
 cd build
 
 echo "Running cmake with build type Debug."
-cmake -Wall -DCMAKE_PREFIX_PATH=/home/pluto/Qt/ \
+cmake -Wall \
   -G "Unix Makefiles" \
   -DCMAKE_BUILD_TYPE=Debug ..
 
@@ -18,6 +18,4 @@ make
 echo "running qml-example"
 
 cd ..
-./build/MinimalQml
-
-
+./build/MinimalQml -platform eglfs
